@@ -1,0 +1,10 @@
+requests==2.32.3
+sqlalchemy==2.0.34
+pydantic==2.9.1
+pydantic-settings==2.5.2
+psycopg2-binary==2.9.9
+shapely==2.0.6
+
+pytest==8.3.3
+pytest-recording==0.13.2
+pylint==2.15.5
