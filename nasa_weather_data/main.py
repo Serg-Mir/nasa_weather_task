@@ -4,7 +4,7 @@ import logging.config
 from nasa_weather_data.core.config.logging import logging_config
 from nasa_weather_data.services.data_retrieval import retrieve_data
 
-logger = logging.getLogger("weather_data_acquisition_task")  # type: ignore
+logger = logging.getLogger("weather_data_acquisition_task")
 
 
 def main():

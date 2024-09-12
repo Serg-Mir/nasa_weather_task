@@ -4,7 +4,7 @@ from shapely.geometry import shape
 from nasa_weather_data.core.clients import WeatherClient
 
 
-logger = logging.getLogger(__name__)  # type: ignore
+logger = logging.getLogger(__name__)
 
 
 def validate_coordinates(coordinate_type, min_value, max_value):

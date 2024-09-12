@@ -3,7 +3,7 @@ from requests import Session
 
 from nasa_weather_data.core.config.settings import get_settings
 
-logger = logging.getLogger(__name__)  # type: ignore
+logger = logging.getLogger(__name__)
 
 
 class WeatherClient:
